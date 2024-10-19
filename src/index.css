@@ -36,3 +36,135 @@
     cursor: pointer;
   
 }
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid;
+}
+
+.student p{
+  margin: 0;
+}
+
+.welcome{
+  font-size: 2.5em;
+  color: white;
+  background-color: green;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login{
+  font-size: 2.5em;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+.category{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: gray;
+  margin: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: blueviolet;
+}
+
+.items li{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+  color: blac;
+  background-color: aquamarine;
+  text-align: center;
+  list-style: none;
+  margin:0
+}
+
+.items li:hover{
+  color: gray;
+  cursor: pointer;
+}
+
+.counter-container{
+  text-align: center;
+
+}
+
+.count-display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover{
+  background-color: blueviolet;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.color-picker-container h1{
+  margin:50px;
+  font-size: 3rem;
+}
+
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25 ease;
+}
+
+.color-display p{
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+.color-picker-container label{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.color-picker-container input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
